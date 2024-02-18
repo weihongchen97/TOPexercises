@@ -1,0 +1,41 @@
+/* Narrow */
+.header{
+    align-items: center;
+    background-color:bisque;
+    justify-content: space-between;
+    display: flex;
+    padding: 8px;
+}
+
+li a {
+    color:blue;
+    background-color: white;
+    margin: auto;
+    justify-content: space-between;
+    display: block;
+    font-size: 22px;
+    text-decoration: none;
+    
+}
+
+.logo {
+    color:orange;
+    background-color: white;
+    margin: 5px;
+    justify-content: center;
+    text-align: center;
+    align-content: space-between;
+    padding: 4px 32px;
+    font-size: 48px;
+}
+/* Wide */
+
+ul{
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 8px;
+}
+
+/* the ul styling is to remove the bullet points and create boxes in the container element */

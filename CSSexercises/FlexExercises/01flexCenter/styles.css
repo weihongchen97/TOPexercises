@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    /* justify-content: auto;
+    align-content: center;
+    background-color: dodgerblue;
+    border: solid black;
+    width: 95%;
+    height: 95%;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    font-size: 20px;
+    margin: 0 2.5%; */
+    background-color: dodgerblue;
+    border: 4px solid midnightblue;
+    width: 400px; 
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.box{
+    border: solid 6px maroon;
+    color: black;
+    background-color: lightcoral;
+    text-align: center;
+    /* justify-content: center; */
+    /* align-content: center; */
+    height: 80px;
+    width: 80px;
+   
+}
+/* You want the container to be centered and probably columned
+flex middle */
