@@ -1,0 +1,80 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    min-height: 100vh;
+  }
+  
+  .header {
+    height: 72px;
+    background: darkmagenta;
+    color: white;
+    font-size: 32px;
+    font-weight: 900;
+    display: flex;
+    align-items: center;
+    padding: 0 16px;
+  }
+  
+  .footer {
+    text-align: center;
+    height: 72px;
+    background: #eee;
+    color: darkmagenta;
+    position: relative;
+  }
+  
+  .sidebar {
+    width: 300px;
+    background: royalblue;
+    box-sizing: border-box;
+  }
+  
+  .card {
+    border: 1px solid #eee;
+    box-shadow: 2px 4px 16px rgba(0,0,0,.06);
+    border-radius: 4px;
+  }
+
+/* need to change flex direction to push the footer down
+You will need to add some divs as containers to get things to line up correctly.
+flex-wrap will help get the cards aligned correctly.
+Make sure you define how much space the cards should take up, in order for flex-wrap to work as intended. */
+body{
+    display: flex;
+    flex-direction: column;
+}
+.mainPortion {
+ flex:1;
+ display: flex;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li{
+    margin-bottom: 16px;
+}
+a{
+    color:white;
+    text-decoration: none;
+    font-size: 24px;
+}
+.myBlock {
+    padding:32px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sidebar {
+    flex-shrink: 0;
+    padding: 16px;
+}
+
+.card{
+    padding:16px;
+    margin: 16px;
+    width: 300px;
+}
+
+
